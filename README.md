@@ -1,12 +1,14 @@
 https://dev.to/davidmles/setting-up-rails-6-1-tailwind-css-2-2-with-jit-5415
 
-
+```
 rails new tailwind-jit-rails
 cd tailwind-jit-rails
 yarn add @fullhuman/postcss-purgecss@^4 postcss@^8 postcss-loader@^4 autoprefixer@^10 tailwindcss@^2
 
 mkdir app/javascript/stylesheets
+```
 vi app/javascript/stylesheets/application.scss
+
 ```
 @tailwind base;
 @tailwind components;
